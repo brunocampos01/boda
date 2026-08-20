@@ -1102,7 +1102,7 @@
 				        videoElement.muted = false; // 음소거 해제
 			            videoElement.loop = true;   // 반복 재생 강제
 			            videoElement.play(); // 재생 시작
-			            $("#invitation_volume_icon").attr('src', '/resources/img/icon/icon-volume.png');
+			            $("#invitation_volume_icon").attr('src', 'resources/img/icon/icon-volume.png');
 			        
 			    });
 
@@ -1116,12 +1116,12 @@
 			            videoElement.loop = true;   // 반복 재생 강제
 			            videoElement.play(); // 재생 시작
 			            last_music = true;
-			            $("#invitation_volume_icon").attr('src', '/resources/img/icon/icon-volume.png');
+			            $("#invitation_volume_icon").attr('src', 'resources/img/icon/icon-volume.png');
 			        } else {
 			            videoElement.muted = true; // 음소거 설정
 			            videoElement.pause(); // 재생 정지
 			            last_music = false;
-			            $("#invitation_volume_icon").attr('src', '/resources/img/icon/icon-volume-off.png');
+			            $("#invitation_volume_icon").attr('src', 'resources/img/icon/icon-volume-off.png');
 			        }
 			    }
 			    
@@ -1439,7 +1439,7 @@
             			break;
             		case "icon-blur":
             			temp = "selected-icon3";
-            			//applySVGToSingleClass('selected-icon3', '/resources/img/icon/icon-blur.svg', '#FF0000'); // 원하는 색상으로 변경
+            			//applySVGToSingleClass('selected-icon3', 'resources/img/icon/icon-blur.svg', '#FF0000'); // 원하는 색상으로 변경
             			break;
             	}
                 
